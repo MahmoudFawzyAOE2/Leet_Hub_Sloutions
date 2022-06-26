@@ -11,6 +11,6 @@ class Solution:
             if L % 1 == 0:
                 break   
             else:
-                w = w -1
+                w-=1
                 
         return [int(L),w]   
