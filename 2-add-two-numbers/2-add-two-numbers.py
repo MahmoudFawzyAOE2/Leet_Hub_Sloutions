@@ -22,9 +22,5 @@ class Solution:
             cur.next = ListNode(val = add if add<10 else add-10 )
             cur = cur.next   
             
-            #print('cur', cur)
-            #print('dummy', dummy)
-            #print()
-            
             add = 0 if add<10 else 1   
         return dummy.next      
