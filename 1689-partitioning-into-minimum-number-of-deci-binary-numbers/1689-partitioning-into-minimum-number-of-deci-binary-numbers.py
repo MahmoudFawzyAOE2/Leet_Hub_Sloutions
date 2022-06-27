@@ -1,10 +1,7 @@
 class Solution:
-    def minPartitions(self, n: str) -> int:
-        
+    def minPartitions(self, n: str) -> int:       
         lst = list(n)
-        
-        print(lst)
-        
+
         maxi = 0
         for i in range(len(lst)):
             num = int(lst[i])
