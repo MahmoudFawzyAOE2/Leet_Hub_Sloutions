@@ -8,7 +8,6 @@ class Solution:
         cur = dummy = ListNode()
         
         while head != None :
-            
             one = head.val
             head = head.next
             
@@ -16,16 +15,10 @@ class Solution:
                 two = head.val
                 head = head.next
             
-                
                 cur.next = ListNode(val = two)
                 cur = cur.next
             
             cur.next = ListNode(val = one)
             cur = cur.next
-            
-            print('cur', cur)
-            print('dummy', dummy.next)
-            print()
-            
-            
+     
         return dummy.next
