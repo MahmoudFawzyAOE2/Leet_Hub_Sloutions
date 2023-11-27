@@ -1,0 +1,7 @@
+Runtime
+36ms
+Beats 83.00% of users with Python3
+
+Memory
+16.26MB
+Beats 44.25% of users with Python3
